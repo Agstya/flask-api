@@ -13,3 +13,16 @@ git push -u origin main -->
 
 <!-- ------------------------------------------------------------------ -->
 
+git init
+git status
+touch README.md
+git status
+git add README.md
+git status
+git commit -m "added readme file"
+git remote -v
+git remote add origin https://github.com/Agstya/flask-api.git
+git remote -v
+git push origin main
+
+
